@@ -1,0 +1,24 @@
+
+.wrapper {
+    display: grid;
+    grid-template-areas:    "A"
+                            "B";
+    grid-template-columns: 1fr;    
+    grid-template-rows: 600px;
+    height: 100%;
+
+// dette funger ikke helt som tiltenk, HighCharts er veldig avhengig av
+// at høyden er satt eksplisitt på det eller annet vis, fortsett her
+
+}
+
+.first {
+    display: grid;          // THIS MAKES ALL THE DIFFERENCE!!  
+    width: 100%;
+    height: calc(100% - 1px);
+}
+
+.second {
+    grid-area: B;
+    border: 10px dotted red;
+}

@@ -1,0 +1,21 @@
+
+.wrapper {
+    display: grid;          // THIS MAKES ALL THE DIFFERENCE!!
+    // border: 3px solid red;
+    height: 100%;
+}
+
+highcharts-chart {
+    // border: 3px solid green;
+    width: 100%;
+    height: 100%;
+
+    .highcharts-root  {
+        border: 25px dotted green;
+        
+        // height: 555px;
+    }
+}
+
+
+// highcharts-fmthdlu-0

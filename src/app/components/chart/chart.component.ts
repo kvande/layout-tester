@@ -10,12 +10,14 @@ export class ChartComponent implements OnInit {
   
   
   Highcharts: typeof Highcharts = Highcharts;
+
   chartOptions: Highcharts.Options = {
     series: [{
       data: [1, 2, 3],
-      type: 'line'
+      type: 'bar'
     }]
   };
+  
   ngOnInit(): void {
   }
 

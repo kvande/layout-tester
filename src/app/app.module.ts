@@ -8,6 +8,7 @@ import { ChartComponent } from './components/chart/chart.component';
 import { TableComponent } from './components/table/table.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { AgGridModule } from 'ag-grid-angular';
+import { TableChartContainerComponent } from './components/table-chart-container/table-chart-container.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AgGridModule } from 'ag-grid-angular';
     AppComponent,
     MainComponent,
     ChartComponent,
-    TableComponent
+    TableComponent,
+    TableChartContainerComponent
   ],
   imports: [
     BrowserModule,
